@@ -32,8 +32,7 @@
                 <version>4.36.0</version>
                 <configuration>
                     <activeRecipes>
-                        <recipe>dev.morphia.experimental</recipe>
-                        <recipe>com.yourorg.FindSourceFilesExample</recipe>
+                        <recipe>dev.morphia.Experimental</recipe>
                     </activeRecipes>
                 </configuration>
             </plugin>
