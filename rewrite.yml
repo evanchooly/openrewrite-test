@@ -1,6 +1,14 @@
 ---
 type: specs.openrewrite.org/v1beta/recipe
+name: com.yourorg.FindSourceFilesExample
+displayName: Find files example
+recipeList:
+  - org.openrewrite.FindSourceFiles:
+      filePattern: ./*.yml
+---
+type: specs.openrewrite.org/v1beta/recipe
 name: dev.morphia.experimental
+displayName: Updates usages of experimental packages to their final forms
 recipeList:
   - org.openrewrite.java.ChangePackage:
       oldPackageName: dev.morphia.query.experimental
